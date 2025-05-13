@@ -1,0 +1,12 @@
+php() {
+  docker run --rm --init -v "$(pwd)":/app -w /app php84-dev php "$@"
+}
+
+phpdev () {
+  local port="${1:-8010}"
+  docker run --rm --init \
+    -v "$(pwd)":/app \
+    -w /app \
+    -p "${port}:${port}" \
+    php84-dev php artisan serve --host=0.0.0.0 --port="${port}"
+}
