@@ -1,5 +1,5 @@
-# php84-docker-image
- Docker image for running php commands
+# php-docker-image
+A docker image for running php commands, or development server because i don't like installing the packages
 
 # Setup
 - Build the image with ```docker compose up --build -d```
@@ -27,4 +27,4 @@ Note: don't change ```--host=0.0.0.0``` as it's required. Otherwise you won't be
 - Just type ```php <something>```
 
 # Issues
-- I made this for my personal purpose but any suggestions is appreciated!
+- I made this for my personal purpose only but any suggestions is appreciated!
