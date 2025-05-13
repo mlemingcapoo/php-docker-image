@@ -3,7 +3,7 @@ A docker image for running php commands, or development server because i don't l
 
 # Setup
 - Build the image with ```docker compose up --build -d```
-- Setup command aliases (See Alias Functions/zshrc.txt for the example)
+- Setup command aliases (See [Alias Functions/zshrc.txt](https://github.com/mlemingcapoo/php-docker-image/blob/main/Alias%20Functions/zshrc.txt) for the example)
 
 # Test run (```php84-dev``` is the built image name, change it to yours)
 - Development server: 
